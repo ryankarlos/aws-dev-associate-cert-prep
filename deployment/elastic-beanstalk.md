@@ -51,9 +51,6 @@ Naming – Configuration files must have the .config file extension.
 Formatting – Configuration files must conform to YAML or JSON specifications. When using YAML, always use spaces to indent keys at different nesting levels.
 Uniqueness – Use each key only once in each configuration file.
 
-You can include a YAML formatted environment manifest (env.yaml) in the root of your application 
-source bundle to configure the environment name, solution stack and environment links to use 
-when creating your environment.
 
 When you use the AWS Elastic Beanstalk console to deploy a new application or an application version, you'll need to upload a source bundle. Your source bundle must meet the following requirements:
 * Consist of a single ZIP file or WAR file (you can include multiple WAR files inside your ZIP file)

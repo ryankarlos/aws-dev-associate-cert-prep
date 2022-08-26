@@ -15,7 +15,7 @@ own source control system or worry about scaling its infrastructure. You can use
 to s tore anything from code to binaries. It supports the standard functionality of Git, 
 so it works seamlessly with your existing Git-based tools.
 
-###CodeBuild
+### CodeBuild
 
 Fully managed build service in the cloud. CodeBuild compiles your source code, runs unit tests, and 
 produces artifacts that are ready to deploy. CodeBuild eliminates the need to provision, manage, 
@@ -40,7 +40,7 @@ You can override the default buildspec file name and location. For example, you 
 You can specify only one buildspec for a build project, regardless of the buildspec file's name.
 
 
-##CodeDeploy 
+## CodeDeploy 
 
 is a deployment service that automates application deployments to Amazon EC2 instances, 
 on-premises instances, serverless Lambda functions, or Amazon ECS services.
@@ -99,7 +99,7 @@ hooks:
 ```
 
 
-##CodePipeline 
+## CodePipeline 
 
 A continuous delivery service that automates the building, testing, and deployment of 
 your software into production. A pipeline comprises a series of stages (e.g., build, test, and deploy), which 

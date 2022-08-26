@@ -1,2 +1,5 @@
-# aws-dev-associate-cert-prep
-Preparation material for the AWS Developer Associate Certification
+# Preparation Notes for the AWS Developer Assoicate Certification Exam
+
+Notes collected from a number of resources
+
+
