@@ -1,4 +1,11 @@
-Data protection refers to protecting data while in-transit (as it travels to and from Amazon S3) and at rest (while it is stored on disks in Amazon S3 data centers). You can protect data in transit using Secure Socket Layer/Transport Layer Security (SSL/TLS) or client-side encryption. You have the following options for protecting data at rest in Amazon S3:
+Security on AWS is a shared responsibility. Amazon Web Services protects the physical resources in your environment 
+and ensures that the Cloud is a safe place for you to run applications. You're responsible for the security of data 
+coming in and out of the cloud and the security of your application.
+
+Data protection refers to protecting data while in-transit (as it travels to and from Amazon S3) and at rest
+(while it is stored on disks in Amazon S3 data centers). You can protect data in transit using 
+Secure Socket Layer/Transport Layer Security (SSL/TLS) or client-side encryption. You have the following 
+options for protecting data at rest in Amazon S3.
 
 ###Server-Side Encryption
 
@@ -162,6 +169,7 @@ it supports encrypted endpoints.
 
 You can use Secure Socket Layer (SSL) or Transport Layer Security (TLS) from your application to encrypt a 
 connection to a DB instance running MariaDB, Microsoft SQL Server, MySQL, Oracle, or PostgreSQL.
+
 
 SSL/TLS connections provide one layer of security by encrypting data that moves between your client and a DB instance. 
 Using a server certificate provides an extra layer of security by validating that the connection is being made to an 
