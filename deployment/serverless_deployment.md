@@ -63,6 +63,8 @@ A function version includes the following information:
 * All the function settings, including the environment variables.
 * A unique Amazon Resource Name (ARN) to identify the specific version of the function.
 
+
+
 You can change the function code and settings only on the unpublished version of a function. When you publish a 
 version, Lambda locks the code and most of the settings to maintain a consistent experience for users of that 
 version. 

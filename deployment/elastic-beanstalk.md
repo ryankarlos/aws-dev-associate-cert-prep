@@ -1,3 +1,5 @@
+## Elastic Beanstalk
+
 AWS Elastic Beanstalk is a fast and simple way to get an application up and running on
 AWS. It’s perfect for developers who want to deploy code without worrying about
 managing the underlying infrastructure. Elastic Beanstalk supports Auto Scaling and
